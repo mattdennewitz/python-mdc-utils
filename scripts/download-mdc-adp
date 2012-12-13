@@ -16,6 +16,12 @@ __version__ = '0.1'
 __author__ = 'Matt Dennewitz'
 
 
+def handle_spilled_milk(e_type, value, traceback):
+    sys.exit('Error: ' + value.message)
+
+sys.excepthook = handle_spilled_milk
+
+
 def main():
     """Do it
     """
