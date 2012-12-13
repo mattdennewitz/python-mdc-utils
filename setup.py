@@ -6,8 +6,8 @@ long_desc = open('README.md', 'r').read()
 
 setup(
     name="python-mdc-utils",
-    version='0.1.0.b1',
-    description="Automate exporting Mock Draft Central ADP rankings",
+    version='2012.1',
+    description="Automate exporting Mock Draft Central baseball ADP rankings",
     long_description=long_desc,
     classifiers=[
         'Development Status :: 4 - Beta',
@@ -17,7 +17,7 @@ setup(
         'Programming Language :: Python :: 2.6',
         'Programming Language :: Python :: 2.7',
         ],
-    keywords='mockdraftcentral baseball',
+    keywords='mockdraftcentral baseball data',
     author='Matt Dennewitz',
     author_email='mattdennewitz@gmail.com',
     url='https://github.com/mattdennewitz/mdc-utils/',
